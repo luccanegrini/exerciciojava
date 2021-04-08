@@ -1,7 +1,7 @@
 package exerciciohumberto;
 
 
-public class vendedor extends Empregado implements salarios{
+public class Vendedor extends Empregado implements Salario{
     private double totalDasVendas;
     private double comissao;
     public void setVendedor(double totalDasVendas, double comissao){

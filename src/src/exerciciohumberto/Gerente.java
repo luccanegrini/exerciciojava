@@ -1,6 +1,6 @@
 package exerciciohumberto;
 
-public class gerentes extends Empregado implements Bonus {
+public class Gerente extends Empregado implements Bonus {
     private double salario;
     private double bonus;
     public void setVendedor(double salario, double bonus){

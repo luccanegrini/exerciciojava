@@ -1,5 +1,5 @@
 package exerciciohumberto;
 
-public interface salarios {
+public interface Salario {
     public double CalcularSalario();
 }

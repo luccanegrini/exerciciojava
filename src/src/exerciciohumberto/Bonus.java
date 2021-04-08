@@ -1,5 +1,5 @@
 package exerciciohumberto;
 
-public class Bonus {
+public interface Bonus {
 	   double calcularBonus();
 	}
