@@ -106,13 +106,13 @@ public class Aplicativo {
         	case "5":
                     JOptionPane.showMessageDialog(null, ListarCli());
                     break;
-    case "6":
+    		case "6":
                     cpf = JOptionPane.showInputDialog("Digite o cpf que deseja remover:");
                     Remover(cpf);
                     break;
-    case "7":
+    		case "7":
                     return;
-        } while
+        }	while
         	(text.equals("1") || text.equals("2") ||  text.equals("3") || text.equals("4") || text.equals("5") ||  text.equals("6") || text.equals("7")|| text.contentEquals(null));
         	}
 	}
