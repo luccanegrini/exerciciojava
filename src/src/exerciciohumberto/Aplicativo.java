@@ -23,7 +23,7 @@ public class Aplicativo {
 		dados.add(novo);
 	}
 
-//método para remover (caique)
+       //método para remover (caique)
 	public static void Remover(String cpf) {
 		int aux = dados.size();
 		for (int x = 0; x < aux; x++) {
@@ -46,7 +46,7 @@ public class Aplicativo {
 		
 	}
 
-// método para listar clientes (lucca)
+        // método para listar clientes (lucca)
 	public static String ListarCli() {
 		int n = dados.size();
 		Cliente aux = new Cliente();
@@ -59,7 +59,7 @@ public class Aplicativo {
 		return print;
 	}
 
-// método de listar empregados (caique)
+   	// método de listar empregados (caique)
 	public static String ListarEmp() {
 		int aux = dados.size();
 		Empregado auxi = new Empregado();
